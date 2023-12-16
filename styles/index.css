@@ -221,9 +221,77 @@ b{
     color: #0d6efd;
 }
 
+hr{
+    display: none;
+}
+
 
 @media (max-width: 767px) {
-    .slideshow-wrapper {
-        padding-top: 56.25%;
+    .navbar{
+        padding: 0;
+    }
+    
+    a.navbar-contact{
+        display: none;
+    }
+
+    .navbar-brand{
+        margin: 0 auto;
+    }
+
+    .swiper{
+        margin-top: 20px;
+    }
+
+    .about h1{
+        font-size: 1.6rem;
+    }
+
+    .about h2{
+        font-size: 1.4rem;
+    }
+
+    .about .row{
+        margin-top: 0 !important;
+    }
+
+    .syllabus{
+        padding: 10%;
+    }
+
+    .guidance{
+        margin: 0 auto;
+        padding: 6% !important;
+    }
+
+    .form-box{
+        padding: 10%;
+        margin: 0;
+        min-width: 100%;
+    }
+
+    .form-div{
+        width: 100%;
+        margin: 0;
+    }
+    .copyright .row{
+        line-height: 150%;
+        text-align: center;
+    }
+
+    .copyright{
+        padding: 4%;
+    }
+
+    hr{
+        display: block;
+    }
+
+    .foot-contact{
+        padding-bottom: 7%;
+    }
+
+    .footer{
+        padding: 10%
     }
 }
