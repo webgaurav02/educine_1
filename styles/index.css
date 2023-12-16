@@ -1,0 +1,229 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    padding-top: 70px;
+    margin: 0 !important;
+}
+
+.Parallax{
+    background-image: url(../media/Parallax.jpg);
+    min-height: 100%;
+    position: relative;
+    /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background: #002147;
+    height: 10vh;
+    padding: 2% 30px;
+    border-bottom: 2px solid white;
+}
+
+.navbar-brand {
+    height: 100%; /* Ensure the anchor takes up the full height of the navbar */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+a.navbar-contact {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+
+.about{
+    background-color: white;
+    margin: 0;
+    min-width: 100%;
+    line-height: 180%;
+}
+
+.about h1{
+    line-height: 130%;
+    font-weight: 600;
+    color: #4748EE;
+}
+
+.courses{
+    color: white;
+    text-align: center;
+    background-color: #002147bb;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+}
+
+.courses img{
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.card{
+    text-align: left;
+    min-height: 160px;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.card-body h5{
+    font-size: 1.2rem;
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.syllabus{
+    background-color: white;
+    margin: 0;
+    min-width: 100%;
+}
+
+.syllabus h2{
+    color: #46C58C;
+}
+
+.guidance{
+    color: white;
+    text-align: center;
+    background-color: #001a38d1;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+}
+
+.form-box{
+    min-width:fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 1px white;
+    border-radius: 20px;
+}
+
+.form-div{
+    margin: 0 auto;
+    width : 50%;
+}
+
+input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.243);
+}
+
+.form-control{
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.form-control:focus{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.612);
+}
+
+.form-field{
+    text-align: left;
+}
+
+.form-div input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+}
+
+.form-div textarea{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    border: solid 1px white;
+    text-align: left;
+}
+
+.call-a{
+    text-decoration: none;
+    color:#002147;
+}
+.call-now{
+    background-color: white;
+}
+
+.call-now h1{
+    color: #0174BE;
+}
+
+.btn-warning{
+    padding: 1% 2%;
+    font-size: 2rem;
+    color: white;
+    border-radius: 100px;
+}
+
+.footer {
+    background-color: #002147;
+    color: white;
+    padding: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+}
+
+b{
+    font-weight: 500;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    padding: 1% 3%;
+    min-width: 100%;
+}
+
+.dev-link{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+
+@media (max-width: 767px) {
+    .slideshow-wrapper {
+        padding-top: 56.25%;
+    }
+}
