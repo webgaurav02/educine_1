@@ -293,6 +293,11 @@ hr{
         text-align: center;
     }
 
+    .call-btn{
+        font-size: 1.5rem;
+        padding: 5% 10%;
+    }
+
     .copyright{
         padding: 4%;
     }
