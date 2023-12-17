@@ -12,6 +12,15 @@ body{
     margin: 0 !important;
 }
 
+.whatsapp{
+    position: fixed;
+    font-size: 4rem;
+    z-index: 1;
+    right: 50px;
+    bottom: 50px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.402));
+}
+
 .Parallax{
     background-image: url(../media/Parallax.jpg);
     min-height: 100%;
@@ -237,6 +246,11 @@ hr{
 
     .navbar-brand{
         margin: 0 auto;
+    }
+
+    .whatsapp{
+        right: 30px;
+
     }
 
     .swiper{
