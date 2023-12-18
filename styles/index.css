@@ -12,13 +12,39 @@ body{
     margin: 0 !important;
 }
 
+.whatsapp p{
+    margin: 0;
+}
+
 .whatsapp{
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    height:fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: fixed;
-    font-size: 4rem;
+    background-color: white;
+    color: #20bb59;
+    font-size: 1.2rem;
+    font-weight: 500;
     z-index: 1;
-    right: 50px;
-    bottom: 50px;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.402));
+    left: 0px;
+    bottom: 100px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    transform: rotate(270deg) translateY(100%);
+    transform-origin: bottom left;
+    padding: 0.2% 1.5%;
+}
+
+.fa-whatsapp{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    margin: 0 15px 0 0;
 }
 
 .Parallax{
@@ -249,8 +275,8 @@ hr{
     }
 
     .whatsapp{
-        right: 30px;
-
+        padding: 0.2% 3%;
+        font-size: 1.1rem;
     }
 
     .swiper{
