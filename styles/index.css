@@ -94,6 +94,18 @@ img {
 .swiper .swiper-pagination-bullet-active{
     background: white;
 }
+/* 
+.demo{
+    color: white;
+    text-align: center;
+    background-color: #002147bb;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+} */
 
 .about{
     background-color: white;
@@ -143,12 +155,34 @@ img {
 .syllabus{
     background-color: white;
     margin: 0;
+    padding: 7%;
     min-width: 100%;
+    padding-bottom: 10% !important;
 }
 
 .syllabus h2{
-    color: #46C58C;
+    padding-left: 0;
+    color: #0fca7d;
 }
+
+.syllabus p{
+    padding-left: 0;
+}
+
+.syllabus .row{
+    margin-top: 5%;
+}
+
+table{
+    font-size: 0.9rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1px 0;
+  }
 
 .guidance{
     color: white;
@@ -281,6 +315,10 @@ hr{
 
     .swiper{
         margin-top: 20px;
+    }
+
+    .syllabus .row{
+        margin-top: 10%;
     }
 
     .about h1{
