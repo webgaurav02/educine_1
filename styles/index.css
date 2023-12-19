@@ -226,6 +226,12 @@ td {
     padding: 1px 0;
 }
 
+th{
+    background-color: #20bb59;
+    color: white;
+    font-weight: 500;
+}
+
 .guidance {
     color: white;
     text-align: center;
