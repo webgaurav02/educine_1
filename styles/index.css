@@ -6,21 +6,21 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     padding: 0;
     padding-top: 70px;
     margin: 0 !important;
 }
 
-.whatsapp p{
+.whatsapp p {
     margin: 0;
 }
 
-.whatsapp{
+.whatsapp {
     border: none;
     border-radius: 5px;
     margin: 0;
-    height:fit-content;
+    height: fit-content;
     width: fit-content;
     display: flex;
     flex-direction: row;
@@ -40,14 +40,14 @@ body{
     padding: 0.2% 1.5%;
 }
 
-.fa-whatsapp{
+.fa-whatsapp {
     margin: 0;
     padding: 0;
     font-size: 1.8rem;
     margin: 0 15px 0 0;
 }
 
-.Parallax{
+.Parallax {
     background-image: url(../media/Parallax.jpg);
     min-height: 100%;
     position: relative;
@@ -66,7 +66,8 @@ body{
 }
 
 .navbar-brand {
-    height: 100%; /* Ensure the anchor takes up the full height of the navbar */
+    height: 100%;
+    /* Ensure the anchor takes up the full height of the navbar */
     display: flex;
     align-items: center;
 }
@@ -87,40 +88,79 @@ img {
     height: auto;
 }
 
-.swiper .swiper-button-prev, .swiper .swiper-button-next{
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
     color: rgba(255, 255, 255, 0.69);
 }
 
-.swiper .swiper-pagination-bullet-active{
+.swiper .swiper-pagination-bullet-active {
     background: white;
 }
-/* 
-.demo{
-    color: white;
-    text-align: center;
-    background-color: #002147bb;
-    padding: 5%;
-    padding-top: 1%;
-    padding-bottom: 2%;
-    margin-left: 0;
-    margin-right: 0;
-    min-width: 100%;
-} */
 
-.about{
+.about {
     background-color: white;
     margin: 0;
     min-width: 100%;
     line-height: 180%;
+    padding-bottom: 2% !important;
+    margin-bottom: 0 !important;
 }
 
-.about h1{
+.about h1 {
     line-height: 130%;
     font-weight: 600;
     color: #4748EE;
 }
 
-.courses{
+
+.demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+    background-color: #FFC436;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgb(0, 0, 0)
+}
+
+.demo-item {
+    text-align: left;
+    gap: 100px;
+}
+
+.demo h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.demo p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2%;
+}
+
+.demo button {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.demo button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.848);
+    transform: scale(1.02);
+}
+
+
+.courses {
     color: white;
     text-align: center;
     background-color: #002147bb;
@@ -132,27 +172,27 @@ img {
     min-width: 100%;
 }
 
-.courses img{
+.courses img {
     max-height: 100px;
     width: auto;
     height: auto;
     object-fit: contain;
 }
 
-.card{
+.card {
     text-align: left;
     min-height: 160px;
     padding: 2%;
     margin-bottom: 10%;
 }
 
-.card-body h5{
+.card-body h5 {
     font-size: 1.2rem;
     color: #0d6efd;
     font-weight: 600;
 }
 
-.syllabus{
+.syllabus {
     background-color: white;
     margin: 0;
     padding: 7%;
@@ -160,31 +200,33 @@ img {
     padding-bottom: 10% !important;
 }
 
-.syllabus h2{
+.syllabus h2 {
     padding-left: 0;
     color: #0fca7d;
 }
 
-.syllabus p{
+.syllabus p {
     padding-left: 0;
 }
 
-.syllabus .row{
+.syllabus .row {
     margin-top: 5%;
 }
 
-table{
+table {
     font-size: 0.9rem;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
     padding: 1px 0;
-  }
+}
 
-.guidance{
+.guidance {
     color: white;
     text-align: center;
     background-color: #001a38d1;
@@ -196,25 +238,25 @@ table, th, td {
     min-width: 100%;
 }
 
-.form-box{
-    min-width:fit-content;
+.form-box {
+    min-width: fit-content;
     margin-left: 10%;
     margin-right: 10%;
     border: solid 1px white;
     border-radius: 20px;
 }
 
-.form-div{
+.form-div {
     margin: 0 auto;
-    width : 50%;
+    width: 50%;
 }
 
-input{
+input {
     color: white;
     background-color: rgba(0, 0, 0, 0.243);
 }
 
-.form-control{
+.form-control {
     text-align: center;
     border: none;
     border-radius: 0;
@@ -223,22 +265,22 @@ input{
     background-color: rgba(0, 0, 0, 0);
 }
 
-.form-control:focus{
+.form-control:focus {
     color: white;
     background-color: rgba(0, 0, 0, 0.612);
 }
 
-.form-field{
+.form-field {
     text-align: left;
 }
 
-.form-div input{
+.form-div input {
     color: white;
     background-color: rgba(0, 0, 0, 0);
     margin: 0 auto;
 }
 
-.form-div textarea{
+.form-div textarea {
     color: white;
     background-color: rgba(0, 0, 0, 0);
     margin: 0 auto;
@@ -246,24 +288,30 @@ input{
     text-align: left;
 }
 
-.call-a{
+.call-a {
     text-decoration: none;
-    color:#002147;
+    color: #002147;
 }
-.call-now{
+
+.call-now {
     background-color: white;
 }
 
-.call-now h1{
+.call-now h1 {
     color: #0174BE;
 }
 
-.btn-warning{
+.btn-warning {
     padding: 1% 2%;
-    font-size: 2rem;
-    color: white;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
     border-radius: 100px;
 }
+.btn-warning:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.848);
+    transform: scale(1.02);
+}
+
 
 .footer {
     background-color: #002147;
@@ -274,107 +322,127 @@ input{
     min-width: 100%;
 }
 
-b{
+b {
     font-weight: 500;
 }
 
-.copyright{
+.copyright {
     background-color: black;
     color: white;
     padding: 1% 3%;
     min-width: 100%;
 }
 
-.dev-link{
+.dev-link {
     text-decoration: none;
     color: #0d6efd;
 }
 
-hr{
+hr {
     display: none;
 }
 
 
 @media (max-width: 767px) {
-    .navbar{
+    .navbar {
         padding: 0;
     }
-    
-    a.navbar-contact{
+
+    a.navbar-contact {
         display: none;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         margin: 0 auto;
     }
 
-    .whatsapp{
+    .whatsapp {
         padding: 0.2% 3%;
         font-size: 1.1rem;
     }
 
-    .swiper{
+    .swiper {
         margin-top: 20px;
     }
 
-    .syllabus .row{
+    .syllabus .row {
         margin-top: 10%;
     }
 
-    .about h1{
+    .about h1 {
         font-size: 1.6rem;
     }
 
-    .about h2{
+    .about h2 {
         font-size: 1.4rem;
     }
 
-    .about .row{
+    .about .row {
         margin-top: 0 !important;
     }
 
-    .syllabus{
+    .demo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .demo-item{
+        margin: 3% 0;
+        text-align: center;
+    }
+
+    .demo-item h2{
+        font-size: 3rem;
+    }
+
+    .demo button{
+        margin-top: 5%;
+        padding: 5%;
+    }
+
+    .syllabus {
         padding: 10%;
     }
 
-    .guidance{
+    .guidance {
         margin: 0 auto;
         padding: 6% !important;
     }
 
-    .form-box{
+    .form-box {
         padding: 10%;
         margin: 0;
         min-width: 100%;
     }
 
-    .form-div{
+    .form-div {
         width: 100%;
         margin: 0;
     }
-    .copyright .row{
+
+    .copyright .row {
         line-height: 150%;
         text-align: center;
     }
 
-    .call-btn{
+    .call-btn {
         font-size: 1.5rem;
         padding: 5% 10%;
     }
 
-    .copyright{
+    .copyright {
         padding: 4%;
     }
 
-    hr{
+    hr {
         display: block;
     }
 
-    .foot-contact{
+    .foot-contact {
         padding-bottom: 7%;
     }
 
-    .footer{
+    .footer {
         padding: 10%
     }
 }
