@@ -44,3 +44,25 @@ btnArray.forEach((button) => {
         courseValue = "";
     });
 });
+
+
+// View full syllabus
+const syllabusBtn = document.getElementsByClassName("syllabus-link")[0];
+const hideBtn = document.getElementsByClassName("hide-syll")[0];
+hideBtn.style.display = "none";
+const fullSyllabus = document.getElementsByClassName("full-syll");
+syllabusBtn.addEventListener('click', () => {
+    Array.from(fullSyllabus).forEach( (syl) => {
+        syl.style.display = "block";
+    })
+    syllabusBtn.style.display = "none";
+    hideBtn.style.display = "block";
+})
+
+hideBtn.addEventListener('click', () => {
+    Array.from(fullSyllabus).forEach( (syl) => {
+        syl.style.display = "none";
+    })
+    syllabusBtn.style.display = "block";
+    hideBtn.style.display = "none";
+})

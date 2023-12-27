@@ -254,7 +254,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="row">
+            <div class="row full-syll">
                 <h2>AISSEE English Language Sainik School Syllabus Class 6</h2>
                 <p>In recent years, English has been a bit tricky in the Sainik School Entrance Exam. Although the
                     questions aren't super hard, many students struggle because they don't fully understand the topics
@@ -352,7 +352,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="row">
+            <div class="row full-syll">
                 <h2>AISSEE Sainik School Entrance Exam Syllabus 2024 for Class 6 Math</h2>
                 <p>In the All India Sainik School Entrance Exam 2024, Mathematics holds the highest mark value. The math
                     section for the Sainik School Class 6 entry exam consists of 50 questions, each carrying 3 marks.
@@ -448,7 +448,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="row">
+            <div class="row full-syll">
                 <h2>AISSEE Sainik School Exam Syllabus Class 6 2024 Reasoning</h2>
                 <p>The Reasoning subject, also referred to as the Intelligence subject, holds significant importance in
                     the Sainik School Entrance Exam 2024. Achieving a top rank requires a strong performance in the
@@ -546,7 +546,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="row">
+            <div class="row full-syll">
                 <h2>AISSEE General Knowledge Sainik School Syllabus Class 6</h2>
                 <p>General Knowledge in the Sainik School entrance exam assesses the depth of understanding of social
                     issues and events. The subject covers a wide range of topics, as indicated in the table below.
@@ -657,37 +657,55 @@
                     </tbody>
                 </table>
             </div>
+            <div class="row">
+                <a class="syllabus-link mx-0 my-0">See full Syllabus</a>
+                <a class="hide-syll mx-0 my-0">Hide full Syllabus</a>
+            </div>
         </div>
 
         <!-- Get Guidance -->
-        <div class="container p-5 guidance text-center" id="guide">
-            <div class="form-box">
-                <h2 class="my-5">Get Guidance</h2>
-                <form class="mb-3" action="https://formspree.io/f/xvoepgbv" method="POST">
-                    <div class="row justify-content-center">
-                        <div class="col-md-3 mb-3 p-2 form-field">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" name="Name" class="form-control" id="name" required>
-                        </div>
-                        <div class="col-md-3 mb-3 p-2 form-field">
-                            <label for="phone" class="form-label">Phone No.</label>
-                            <input type="tel" name="Phone" class="form-control" id="phone" required>
-                        </div>
+        <div class="container p-5 guidance" id="guide">
+            <div class="row">
+                <div class="col-md-6 guide-text">
+                    <h4 class="my-5">Hello Future Sainik School Cadet!</h4>
+                    <p>Excited about your interest in our Sainik School coaching courses! Please complete the form below with your details.</p>
+                    <p>Our expert team will reach out soon to guide you on available courses.</p> <br>
+                    <p>If you prefer a direct chat, click the WhatsApp icon below to connect with us.</p>
+                    <button class="whatsapp-chat" onclick="redirectToWhatsApp()" target="_blank">
+                        <i class="fa-brands fa-whatsapp" style="color: #25d366;"></i>
+                        <p> Chat with us </p>
+                    </button>
+                </div>
+                <div class="col-md-6 mb-0 pb-0">
+                    <div class="form-box mx-0">
+                        <h2 class="my-5">Get Guidance</h2>
+                        <form class="mb-3" action="https://formspree.io/f/xvoepgbv" method="POST">
+                            <div class="row justify-content-center">
+                                <div class="col-md-3 mb-3 p-2 form-field">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" name="Name" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-3 mb-3 p-2 form-field">
+                                    <label for="phone" class="form-label">Phone No.</label>
+                                    <input type="tel" name="Phone" class="form-control" id="phone" required>
+                                </div>
+                            </div>
+                            <div class="mb-3 form-div form-field">
+                                <label for="email" class="form-label">Enter Email</label>
+                                <input type="email" name="Email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3 form-div form-field">
+                                <label for="course" class="form-label">Enter Course</label>
+                                <input type="text" name="Course" class="form-control" id="course">
+                            </div>
+                            <div class="mb-3 form-div form-field">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" name="Message" id="message" rows="8"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary my-3">Submit</button>
+                        </form>
                     </div>
-                    <div class="mb-3 form-div form-field">
-                        <label for="email" class="form-label">Enter Email</label>
-                        <input type="email" name="Email" class="form-control" id="email" required>
-                    </div>
-                    <div class="mb-3 form-div form-field">
-                        <label for="course" class="form-label">Enter Course</label>
-                        <input type="text" name="Course" class="form-control" id="course">
-                    </div>
-                    <div class="mb-3 form-div form-field">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" name="Message" id="message" rows="8"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary my-3">Submit</button>
-                </form>
+                </div>
             </div>
         </div>
 
@@ -705,7 +723,7 @@
                 <div class="col-md-4 pl-5 foot-contact">
                     <h4 class="my-3">Get in touch</h4>
                     <p>Contact: <b>+91 8076199461</b></p>
-                    <p>Email: <b>educineaccedmy7@gmail.com</b></p>
+                    <p>Email: <b>contact@educineacademy.in</b></p>
                     <p>Address: <b>Uttam Nagar, New Delhi</b></p>
                 </div>
                 <hr>
