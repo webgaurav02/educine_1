@@ -97,6 +97,13 @@ img {
     background: white;
 }
 
+.head-welcome{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: black;
+    
+}
+
 .about {
     background-color: white;
     margin: 0;
@@ -214,6 +221,7 @@ img {
 }
 
 .syllabus-link, .hide-syll{
+    color:#0d6efd;
     font-weight: 300;
     max-width: fit-content;
     text-decoration: none;
@@ -425,6 +433,10 @@ hr {
 
     .syllabus .row {
         margin-top: 10%;
+    }
+
+    .head-welcome{
+        font-size: 1.2rem;
     }
 
     .about h1 {
