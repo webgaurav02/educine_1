@@ -97,11 +97,10 @@ img {
     background: white;
 }
 
-.head-welcome{
+.head-welcome {
     font-size: 1.7rem;
     font-weight: 400;
     color: black;
-    
 }
 
 .about {
@@ -161,6 +160,7 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s, transform 0.3s;
 }
+
 .demo button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.848);
     transform: scale(1.02);
@@ -179,18 +179,14 @@ img {
     min-width: 100%;
 }
 
-.courses img {
-    max-height: 100px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-}
-
 .card {
-    text-align: left;
     min-height: 160px;
     padding: 2%;
     margin-bottom: 10%;
+}
+
+.card-img-top {
+    width: 100%;
 }
 
 .card-body h5 {
@@ -209,7 +205,7 @@ img {
 
 .syllabus h2 {
     padding-left: 0;
-    color: #0fca7d;
+    color: black;
 }
 
 .syllabus p {
@@ -220,8 +216,9 @@ img {
     margin-top: 5%;
 }
 
-.syllabus-link, .hide-syll{
-    color:#0d6efd;
+.syllabus-link,
+.hide-syll {
+    color: #0d6efd;
     font-weight: 300;
     max-width: fit-content;
     text-decoration: none;
@@ -230,12 +227,13 @@ img {
     cursor: pointer;
 }
 
-.syllabus-link:hover, .hide-syll:hover{
+.syllabus-link:hover,
+.hide-syll:hover {
     color: black;
 }
 
 
-.full-syll{
+.full-syll {
     display: none;
 }
 
@@ -244,7 +242,6 @@ table {
 }
 
 table,
-th,
 td {
     border: 0.2px solid black;
     border-collapse: collapse;
@@ -252,9 +249,8 @@ td {
     padding: 1px 0;
 }
 
-th{
-    background-color: #20bb59;
-    color: white;
+th {
+    border: 2px solid black;
     font-weight: 500;
 }
 
@@ -270,22 +266,22 @@ th{
     min-width: 100%;
 }
 
-.guide-text{
+.guide-text {
     text-align: left;
     padding: 5%;
     padding-top: 2%;
     line-height: 200%;
 }
 
-.guide-text h4{
+.guide-text h4 {
     font-weight: 500;
 }
 
-.guide-text p{
+.guide-text p {
     font-weight: 300;
 }
 
-.whatsapp-chat{
+.whatsapp-chat {
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -298,7 +294,7 @@ th{
     margin-bottom: 5%;
 }
 
-.whatsapp-chat p{
+.whatsapp-chat p {
     margin: 0;
 }
 
@@ -318,7 +314,7 @@ input {
     background-color: rgba(0, 0, 0, 0.243);
 }
 
-.form-label{
+.form-label {
     margin-bottom: 0;
 }
 
@@ -373,14 +369,25 @@ input {
     color: rgb(0, 0, 0);
     border-radius: 100px;
 }
-.btn-warning:hover{
+
+.btn-warning:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.848);
     transform: scale(1.02);
 }
 
 
 .footer {
-    background-color: #002147;
+    /* background: url(/media/10139763.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        url(/media/footer.webp);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     padding: 3%;
     margin-left: 0;
@@ -408,6 +415,25 @@ hr {
     display: none;
 }
 
+.has-floating-animation .is-floating-animated {
+    animation: float-up-down 2s ease-in-out infinite both;
+}
+
+@keyframes float-up-down {
+    0% {
+        -webkit-transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(-5%);
+        transform: translateY(-5%)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
 
 @media (max-width: 767px) {
     .navbar {
@@ -435,7 +461,7 @@ hr {
         margin-top: 10%;
     }
 
-    .head-welcome{
+    .head-welcome {
         font-size: 1.2rem;
     }
 
@@ -456,16 +482,16 @@ hr {
         align-items: center;
     }
 
-    .demo-item{
+    .demo-item {
         margin: 3% 0;
         text-align: center;
     }
 
-    .demo-item h2{
+    .demo-item h2 {
         font-size: 3rem;
     }
 
-    .demo button{
+    .demo button {
         margin-top: 5%;
         padding: 5%;
     }
@@ -480,7 +506,7 @@ hr {
         padding: 6% !important;
     }
 
-    .whatsapp-chat{
+    .whatsapp-chat {
         margin: 30px auto;
     }
 
