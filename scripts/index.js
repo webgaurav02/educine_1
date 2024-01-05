@@ -36,9 +36,8 @@ const btnArray = Array.from(enrollBtns);
 btnArray.forEach((button) => {
     button.addEventListener("click", (e) => {
         let ele = e.target.parentNode;
-        const para = ele.getElementsByTagName("p")[0];
         courseValue += ele.firstElementChild.innerHTML + " ";
-        courseValue += para.innerHTML;
+        console.log(courseValue);
         const CourseName = document.getElementById("course");
         CourseName.setAttribute('value', courseValue);
         courseValue = "";

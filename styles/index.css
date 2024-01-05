@@ -180,9 +180,10 @@ img {
 }
 
 .card {
+    width: 90%;
     min-height: 160px;
     padding: 2%;
-    margin-bottom: 10%;
+    margin: 5% auto 10%;
 }
 
 .card-img-top {
@@ -326,6 +327,7 @@ input {
     color: white;
     background-color: rgba(0, 0, 0, 0);
 }
+
 
 .form-control:focus {
     color: white;
