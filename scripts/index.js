@@ -78,17 +78,23 @@ function bookOnWhatsApp() {
 }
 
 
+// Navbar
 
-let courseValue = "";
-const enrollBtns = document.getElementsByClassName("course-btn");
-const btnArray = Array.from(enrollBtns);
-btnArray.forEach((button) => {
-    button.addEventListener("click", (e) => {
-        let ele = e.target.parentNode;
-        courseValue += ele.firstElementChild.innerHTML + " ";
-        console.log(courseValue);
-        const CourseName = document.getElementById("course");
-        CourseName.setAttribute('value', courseValue);
-        courseValue = "";
-    });
-});
+const toggler = document.getElementById("check");
+const navPhone = document.getElementById('navPhone');
+toggler.checked = false;
+navPhone.style.opacity = '0';
+
+const toggleNav = () => {
+    if (navPhone.style.opacity=='0'){
+        navPhone.style.left = '10%';
+        navPhone.style.opacity = '1';
+    }
+    else{
+        navPhone.style.left = '-100%';
+        navPhone.style.opacity = '0';
+    }
+    toggler.checked = (navPhone.style.opacity=='0') ? false : true;
+}
+
+toggler.addEventListener( 'click', toggleNav);

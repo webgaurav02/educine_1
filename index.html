@@ -65,14 +65,81 @@
 
     <div class="Parallax">
         <!-- Navbar -->
+
+
         <nav class="navbar navbar-expand-lg fixed-top">
+
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./media/logo.webp" alt="Educine Academy Logo">
+                    <span class="ml-5">Educine Academy</span>
                 </a>
-                <a class="navbar-contact" href="tel:8076199461">Call : +91 8076199461</a>
+        
+                <div class="navToggler" id="navToggler">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="navItems">
+                    <ul>
+                        <li>
+                            <a href="https://wa.me/918292475069?text=Hello%20Educine%20Academy!%20%F0%9F%91%8B%20I\'m%20interested%20in%20learning%20more%20about%20your%20coaching%20classes%20and%20courses.%20Can%20you%20provide%20me%20with%20more%20information?%20%F0%9F%93%9A"
+                                target="_blank" rel="noreferrer">
+                                <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#courses">Courses</a>
+                        </li>
+                        <li>
+                            <a href="/syllabus.html">Syllabus</a>
+                        </li>
+                        <li>
+                            <a href="#guide">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </nav>
+
+
+        <div class="navPhone" id="navPhone">
+            <ul>
+                <li>
+                    <a href="#" onclick="toggleNav()" >Home</a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#courses" onclick="toggleNav()" >Courses</a>
+                </li>
+                <hr>
+                <li>
+                    <a href="/syllabus.html" onclick="toggleNav()" >Syllabus</a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#guide" onclick="toggleNav()" >Contact</a>
+                </li>
+                <hr>
+                <li>
+                    <a href="https://wa.me/918292475069?text=Hello%20Educine%20Academy!%20%F0%9F%91%8B%20I\'m%20interested%20in%20learning%20more%20about%20your%20coaching%20classes%20and%20courses.%20Can%20you%20provide%20me%20with%20more%20information?%20%F0%9F%93%9A"
+                        target="_blank" rel="noreferrer" onclick="toggleNav()" >
+                        <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+
         <!-- Slideshow -->
         <!-- Slider main container -->
         <div class="swiper">
@@ -92,8 +159,8 @@
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
         </div>
 
 
@@ -102,10 +169,10 @@
             <div class="row my-4">
                 <div class="col-md-8">
                     <span class="head-welcome">Welcome to the <span>best Coaching Institute for</span> </span>
-                    <h1 class="mb-4 head-type"><span id="type-sp"></span><span id="cursor">|</span></h1>    
-                        <!-- SAINIK SCHOOL / RMS / RIMC / NDA -->
-                    
-                        <p class="my-5">At Educine Academy, we take pride in being the premier coaching institute for Sainik
+                    <h1 class="mb-4 head-type"><span id="type-sp"></span><span id="cursor">|</span></h1>
+                    <!-- SAINIK SCHOOL / RMS / RIMC / NDA -->
+
+                    <p class="my-5">At Educine Academy, we take pride in being the premier coaching institute for Sainik
                         School, RMS, RIMC, and NDA entrance examinations. Our commitment to excellence has set a new
                         standard in the realm of competitive education.</p>
                     <p class="my-5">Our faculty are not just educators; they are mentors, motivators, and guides.
@@ -150,13 +217,13 @@
 
 
         <!-- Popular Courses -->
-        <div class="container py-5 courses">
+        <div class="container py-5 courses" id="courses">
             <h2 class="my-5">Popular Courses</h2>
             <div class="row mb-5">
                 <!-- Course 1 -->
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./media/Courses/3.webp" class="card-img-top" alt="Course Image">
+                        <img src="./media/Courses/Sainik-School-Coaching.webp" class="card-img-top" alt="Sainik School Coaching Course Image">
                         <div class="card-body">
                             <h5 class="card-title">Sainik School Coaching</h5>
                             <a href="#guide" class="btn btn-primary course-btn">Enroll Now</a>
@@ -166,7 +233,7 @@
                 <!-- Course 2 -->
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./media/Courses/1.webp" class="card-img-top" alt="Course Image">
+                        <img src="./media/Courses/RMS-Coaching.webp" class="card-img-top" alt="RMS Coaching Course Image">
                         <div class="card-body">
                             <h5 class="card-title">RMS Coaching</h5>
                             <a href="#guide" class="btn btn-primary course-btn">Enroll Now</a>
@@ -175,7 +242,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./media/Courses/2.webp" class="card-img-top" alt="Course Image">
+                        <img src="./media/Courses/RIMC-Coaching.webp" class="card-img-top" alt="RIMC Coaching Course Image">
                         <div class="card-body">
                             <h5 class="card-title">RIMC Coaching</h5>
                             <a href="#guide" class="btn btn-primary course-btn">Enroll Now</a>
@@ -184,7 +251,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="card">
-                        <img src="./media/Courses/4.webp" class="card-img-top" alt="Course Image">
+                        <img src="./media/Courses/JNV-Coaching.webp" class="card-img-top" alt="JNV Coaching Course Image">
                         <div class="card-body">
                             <h5 class="card-title">JNV Coaching</h5>
                             <a href="#guide" class="btn btn-primary course-btn">Enroll Now</a>
@@ -214,7 +281,7 @@
                     <p class="mb-0">English and Social Studies (100+75marks)</p>
                 </div>
             </div>
-            
+
             <div class="row">
                 <a href="/syllabus.html" class="btn btn-primary course-btn syllabus-link">View Full Syllabus</a>
             </div>
@@ -260,6 +327,7 @@
                                     <option value="RMS Coaching">RMS Coaching</option>
                                     <option value="RIMC Coaching">RIMC Coaching</option>
                                     <option value="JNV Coaching">JNV Coaching</option>
+                                    <option value="JNV Coaching">Other</option>
                                 </select>
                             </div>
                             <div class="mb-3 form-div form-field">
