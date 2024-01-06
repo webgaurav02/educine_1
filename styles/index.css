@@ -80,6 +80,7 @@ body {
 }
 
 .navbar-brand span {
+    color: white;
     margin-left: 20px;
     font-size: 1.1rem;
     font-weight: 500;
@@ -555,6 +556,48 @@ hr {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Syllabus Page */
+.header{
+    background-color: white;
+    background-image: url(/media/bg-doodles-01.png);
+    margin-top: 5%;
+    text-align: center;
+    padding: 5% 4%;
+}
+
+.header h1{
+    color: #4748EE;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.syllabus{
+    text-align: left;
+}
+
+
+
+
+
 @media (max-width: 767px) {
 
     .navItems{
@@ -723,5 +766,20 @@ hr {
 
     .footer {
         padding: 10%
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* Syllabus Page */
+    .header h1{
+        font-size: 1.5rem;
     }
 }
