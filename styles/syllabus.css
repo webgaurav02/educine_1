@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    color: #4748EE;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.syllabus{
+    text-align: left;
+}

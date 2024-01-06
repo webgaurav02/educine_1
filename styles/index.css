@@ -12,6 +12,10 @@ body {
     margin: 0 !important;
 }
 
+.left-align {
+    text-align: left !important;
+}
+
 .whatsapp p {
     margin: 0;
 }
@@ -67,7 +71,6 @@ body {
 
 .navbar-brand {
     height: 100%;
-    /* Ensure the anchor takes up the full height of the navbar */
     display: flex;
     align-items: center;
 }
@@ -94,17 +97,36 @@ img {
 }
 
 .swiper .swiper-pagination-bullet-active {
-    background: white;
+    background-color: white;
 }
 
 .head-welcome {
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #184470;
+}
+
+.head-type{
+    font-size: 6rem;
+}
+
+#cursor{
+    font-weight: 300;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
 }
 
 .about {
     background-color: white;
+    background-image: url(/media/bg-about.webp);
     margin: 0;
     min-width: 100%;
     line-height: 180%;
@@ -184,6 +206,7 @@ img {
     min-height: 160px;
     padding: 2%;
     margin: 5% auto 10%;
+    padding-bottom: 0;
 }
 
 .card-img-top {
@@ -192,8 +215,14 @@ img {
 
 .card-body h5 {
     font-size: 1.2rem;
-    color: #0d6efd;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.card .btn{
+    border-radius: 0px;
+    padding: 1% 4%;
+    width: 100%;
+    background-color: #4748EE;
 }
 
 .syllabus {
@@ -217,25 +246,20 @@ img {
     margin-top: 5%;
 }
 
-.syllabus-link,
-.hide-syll {
-    color: #0d6efd;
+.syllabus-link{
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 0.5% 2%;
     font-weight: 300;
+    background-color: #4748EE;
     max-width: fit-content;
     text-decoration: none;
-    border: 0.5px solid black;
     font-size: 1.2rem;
     cursor: pointer;
 }
 
-.syllabus-link:hover,
-.hide-syll:hover {
+.syllabus-link:hover{
     color: black;
-}
-
-
-.full-syll {
-    display: none;
 }
 
 table {
@@ -247,11 +271,13 @@ td {
     border: 0.2px solid black;
     border-collapse: collapse;
     text-align: center;
-    padding: 1px 0;
+    padding: 0.5% 0.5%;
 }
 
 th {
-    border: 2px solid black;
+    color: white;
+    background-color: #4748EE;
+    border: 0.2px solid rgb(255, 255, 255);
     font-weight: 500;
 }
 
@@ -354,7 +380,8 @@ input {
 
 .call-a {
     text-decoration: none;
-    color: #002147;
+    
+    color: #4748EE;
 }
 
 .call-now {
@@ -362,7 +389,7 @@ input {
 }
 
 .call-now h1 {
-    color: #0174BE;
+    color: #002147;
 }
 
 .btn-warning {
@@ -464,15 +491,18 @@ hr {
     }
 
     .head-welcome {
-        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
     }
 
     .about h1 {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
-    .about h2 {
-        font-size: 1.4rem;
+    .about p{
+        line-height: 1.6rem;
+        font-size: 0.8rem;
     }
 
     .about .row {
@@ -501,6 +531,11 @@ hr {
     .syllabus {
         padding: 10%;
         padding-bottom: 15% !important;
+    }
+
+    .syllabus-link{
+        font-size: 1rem;
+        padding: 2% 5%;
     }
 
     .guidance {
