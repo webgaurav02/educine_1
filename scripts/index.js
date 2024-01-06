@@ -27,7 +27,7 @@ const sleep = (ms) => {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
-  const phrases = ["Sainik School", "RMS", "RIMC", "NDA"];
+  const phrases = ["Sainik School", "RMS Coaching", "RIMC Coaching", "JNV Coaching"];
   const el = document.getElementById("type-sp");
 
   let sleepTime = 80;
