@@ -26,8 +26,8 @@ const swiper = new Swiper('.swiper', {
 const sleep = (ms) => {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
-
-  const phrases = ["Sainik School", "RMS Coaching", "RIMC Coaching", "JNV Coaching"];
+  const phrases = (matchMedia('only screen and (max-width: 767px)').matches) ? ["Sainik\nSchool", "RMS\nCoaching", "RIMC\nCoaching", "JNV\nCoaching"] : ["Sainik School", "RMS Coaching", "RIMC Coaching", "JNV Coaching"] ;
+  // const phrases = ["Sainik School", "RMS Coaching", "RIMC Coaching", "JNV Coaching"];
   const el = document.getElementById("type-sp");
 
   let sleepTime = 80;
