@@ -12,6 +12,71 @@ body {
     margin: 0 !important;
 }
 
+.white-bg {
+    background-color: white;
+    margin: 0;
+    padding: 0 !important;
+}
+
+/* ----- Reveal animation ------ */
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* ------ --------------- ------ */
+
+
+/* ----- Slide in animations ----- */
+/***** Global Slide *****/
+.slide-right,
+.slide-left {
+    width: 100%;
+}
+
+/***** Slide Right *****/
+.slide-right {
+    animation: 1.5s slide-right;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+        margin-left: -10%;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 0%;
+    }
+}
+
+/***** Slide Left *****/
+.slide-left {
+    animation: 1.5s slide-left;
+}
+
+@keyframes slide-left {
+    from {
+        opacity: 0;
+        margin-left: 10%;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 0%;
+    }
+}
+/* ----------------------------- */
+
+
 
 .left-align {
     text-align: left !important;
@@ -236,6 +301,7 @@ img {
 }
 
 @keyframes bounce {
+
     0%,
     20%,
     50%,
@@ -243,9 +309,11 @@ img {
     100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-30px);
     }
+
     60% {
         transform: translateY(-15px);
     }
@@ -516,9 +584,6 @@ input {
     color: #4748EE;
 }
 
-.call-now {
-    background-color: white;
-}
 
 .call-now h1 {
     color: #002147;
@@ -708,7 +773,7 @@ hr {
         margin-top: 20px;
     }
 
-    .arrow.bounce{
+    .arrow.bounce {
         display: none;
     }
 
