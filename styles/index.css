@@ -764,6 +764,7 @@ hr {
     /*  */
 
     .navbar {
+        max-height: 10vh;
         padding: 0;
     }
 
