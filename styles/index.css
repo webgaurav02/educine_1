@@ -412,17 +412,28 @@ img {
     width: 100%;
 }
 
+.card-body{
+    padding: 2% 0;
+}
+
 .card-body h5 {
+    text-transform: uppercase;
     padding: 1%;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
 .card .btn {
-    border-radius: 0px;
     padding: 1% 4%;
     width: 100%;
     background-color: #4748EE;
+}
+
+.card .btn:hover{
+    background-color: #ff5100;
+    box-shadow: 0 3px 10px black;
+    /* transform: translateY(-2px); */
+    transform: scale(1.02);
 }
 
 .syllabus {
