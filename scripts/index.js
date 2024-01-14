@@ -33,8 +33,8 @@ const reveal = () => {
 
     if (elementTop < windowHeight - elementVisible) {
       revItem.classList.add("active");
-    } else {
-      revItem.classList.remove("active");
+    // } else {
+    //   revItem.classList.remove("active");
     }
   })
 }
