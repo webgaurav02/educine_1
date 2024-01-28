@@ -185,7 +185,7 @@ body {
     height: 0;
 }
 
-.notice-bar{
+.notice-bar {
     /* margin-top: 5%; */
     /* margin-bottom: 2%; */
     background-color: #ffee00;
@@ -196,7 +196,7 @@ body {
     gap: 10px;
 }
 
-.notice-bar p{
+.notice-bar p {
     margin: 0;
 }
 
@@ -613,6 +613,31 @@ input {
     text-align: left;
 }
 
+
+.review {
+    padding: 5% 0;
+    color: white;
+    min-width: 100%;
+    background-color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/media/bg-doodles-02.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.review video {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.48);
+}
+
 .call-a {
     text-decoration: none;
 
@@ -927,6 +952,11 @@ hr {
         display: block;
     }
 
+    .review h2 {
+        font-size: 1.9rem;
+        margin: 7% 0;
+    }
+
     .foot-contact {
         padding-bottom: 7%;
     }
@@ -934,6 +964,7 @@ hr {
     .footer {
         padding: 10%
     }
+
 
 
 
