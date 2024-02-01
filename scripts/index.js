@@ -119,7 +119,7 @@ const toggleNav = () => {
     navPhone.style.opacity = '1';
   }
   else {
-    navPhone.style.left = '-100%';
+    navPhone.style.left = '100%';
     navPhone.style.opacity = '0';
   }
   toggler.checked = (navPhone.style.opacity == '0') ? false : true;
