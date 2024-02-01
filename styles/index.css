@@ -485,16 +485,18 @@ img {
 }
 
 
+.fees-cont{
+    background-color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/media/bg-doodles-02.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 .fees{
     padding: 5% 0;
     color: white;
     min-width: 100%;
-    background-color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/media/bg-doodles-02.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
