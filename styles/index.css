@@ -698,6 +698,7 @@ input {
 
 .review video {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.48);
+    margin-bottom: 5%;
 }
 
 .call-a {
@@ -1025,6 +1026,10 @@ hr {
     .review h2 {
         font-size: 1.9rem;
         margin: 7% 0;
+    }
+
+    .review video {
+        margin-bottom: 10%;
     }
 
     .foot-contact {
